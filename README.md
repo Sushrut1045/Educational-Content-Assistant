@@ -81,4 +81,35 @@ Answer Generation
 
 ## 📂 Project Structure
 
+frontend/
+backend/
+│
+├── app/
+│ ├── main.py
+│ ├── rag.py
+│ ├── utils.py
+│
+├── requirements.txt
+├── .env
 
+🧪 API Endpoints
+
+POST /upload
+
+POST /ask
+
+POST /generate-learning-path
+
+POST /generate-quiz
+
+🔮 Future Improvements
+
+Multi-user authentication
+
+Persistent database
+
+Adaptive difficulty
+
+Analytics dashboard
+
+Knowledge graph integration
