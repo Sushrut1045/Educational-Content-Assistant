@@ -92,24 +92,12 @@ backend/
 ├── requirements.txt
 ├── .env
 
-🧪 API Endpoints
+## 🧪 API Endpoints
 
-POST /upload
+- POST /upload
 
-POST /ask
+- POST /ask
 
-POST /generate-learning-path
+- POST /generate-learning-path
 
-POST /generate-quiz
-
-🔮 Future Improvements
-
-Multi-user authentication
-
-Persistent database
-
-Adaptive difficulty
-
-Analytics dashboard
-
-Knowledge graph integration
+- POST /generate-quiz
