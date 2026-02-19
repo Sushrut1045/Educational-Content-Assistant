@@ -82,15 +82,25 @@ Answer Generation
 ## 📂 Project Structure
 
 frontend/
+
 backend/
+
 │
+
 ├── app/
+
   ├── main.py
+  
   ├── rag.py
+  
   ├── utils.py
+  
 │
+
 ├── requirements.txt
+
 ├── .env
+
 
 ---
 
