@@ -85,9 +85,9 @@ frontend/
 backend/
 │
 ├── app/
-│ ├── main.py
-│ ├── rag.py
-│ ├── utils.py
+  ├── main.py
+  ├── rag.py
+  ├── utils.py
 │
 ├── requirements.txt
 ├── .env
@@ -97,28 +97,19 @@ backend/
 ## 🧪 API Endpoints
 
 - POST /upload
-
 - POST /ask
-
 - POST /generate-learning-path
-
 - POST /generate-quiz
-
+- 
 ---
 ## 🧠 How It Works (RAG Pipeline)
 
 1. User uploads a PDF
-
 2. Text is extracted and chunked
-
 3. Embeddings are generated using Gemini
-
 4. Stored in FAISS vector database
-
 5. User asks a question
-
 6. Relevant chunks are retrieved
-
 7. Gemini generates the final answer
 
 ---
@@ -126,11 +117,7 @@ backend/
 ## 🔮 Future Improvements
 
 - Multi-user authentication
-
 - Persistent database
-
 - Adaptive difficulty
-
 - Analytics dashboard
-
 - Knowledge graph integration
