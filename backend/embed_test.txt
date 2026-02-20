@@ -1,0 +1,9 @@
+API KEY FOUND: True
+models/embedding-001 FAILED: Error embedding content: 404 models/embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.
+embedding-001 FAILED: Error embedding content: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+
+models/text-embedding-004 FAILED: Error embedding content: 404 models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.
+text-embedding-004 FAILED: Error embedding content: 400 * BatchEmbedContentsRequest.model: unexpected model name format
+* BatchEmbedContentsRequest.requests[0].model: unexpected model name format
+
