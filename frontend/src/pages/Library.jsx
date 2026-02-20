@@ -23,7 +23,7 @@ const Library = () => {
 
         try {
             // Real API call
-            const response = await axios.post('http://localhost:8000/upload', formData);
+            const response = await axios.post('https://educational-content-assistant-94xd.onrender.com/upload', formData);
             setFiles(prev => [...prev, {
                 name: file.name,
                 size: (file.size / 1024 / 1024).toFixed(2) + ' MB',

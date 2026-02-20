@@ -30,7 +30,7 @@ const Chat = () => {
 
         try {
             // Real API call
-            const response = await axios.post('http://localhost:8000/query', { question: input });
+            const response = await axios.post('https://educational-content-assistant-94xd.onrender.com/query', { question: input });
             const botMessage = { role: 'bot', content: response.data.answer };
 
             setMessages(prev => [...prev, botMessage]);

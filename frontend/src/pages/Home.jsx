@@ -11,7 +11,7 @@ const Home = () => {
         setIsRestarting(true);
         try {
             // Tell backend to clear ChromaDB
-            await axios.post('http://localhost:8000/reset');
+            await axios.post('https://educational-content-assistant-94xd.onrender.com/reset');
 
             // Clear local storage items
             localStorage.removeItem('eduassist_files');
