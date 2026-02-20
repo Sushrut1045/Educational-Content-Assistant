@@ -64,7 +64,7 @@ async def query_document(request: QueryRequest):
         retriever = get_retriever()
         llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key=os.getenv("GOOGLE_API_KEY"))
         
-        from langchain.prompts import PromptTemplate
+        from langchain_core.prompts import PromptTemplate
         prompt_template = """Use the following pieces of context to answer the question at the end. 
         If you don't know the answer, just say that you don't know, don't try to make up an answer.
         Respond in a direct, conversational tone. Do not use markdown headers, bold text, or raw list formatting unless necessary for clarity. Keep the response concise and to the point.
